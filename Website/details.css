@@ -1,0 +1,147 @@
+body{
+			background-image:url('background image.jpg');
+			background-size:length;	
+}
+
+#wrapper {
+			height: 900px;
+			width : 900px;
+			margin: 0 auto;
+			color : white;
+		}
+		
+#header /*Header has text shadow and borders*/ {
+			border-style:ridge;
+			border-width:5px;
+			border-color:white;
+			height: 10%;
+			width : 20%;
+			font-family:helvetica;
+			text-shadow  : 5px 10px 15px;
+			background-image:url('logo.jpg');
+			background-size:180px 100%;
+			display:block;
+			float:left;
+		}
+
+h1		{
+			border-style:ridge;
+			border-width:6px;
+			border-color:grey;
+			height:10%;
+			width:99%;
+			background-image:url('homeheader.jpg');
+			background-size:740px 100%;
+		}	
+		
+h2		{
+			border-style:ridge;
+			border-width:6px;
+			border-color:grey;
+			height:10%;
+			width:99%;
+			color:#D8D8E6;
+			text-align:center;
+			font-size:60px;
+			margin:0 auto;
+			font-family:helvetica;
+			text-shadow:5px 10px 15px;
+			background-color:black;
+			background-size:740px 100%;
+		}			
+		
+
+#navbar  {
+			z-index:99;
+			position:relative;
+			width:100%;
+			height:50px;
+			margin:0 auto;
+			color:white;
+			background-color:#000000;
+		}		
+	
+.navbar	{
+	height: 50px;
+        padding: 0;
+	margin: 0;
+	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	border-right: 1px solid #FFFF00; 
+	text-shadow  : 5px 10px 15px;
+	}
+
+.navbar li 	{
+			height: auto;
+			width: 150px;  /* Each menu item is 150px wide */
+			float: left;  /* This lines up the menu items horizontally */
+			text-align: center;  /* All text is placed in the center of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			font: normal bold 12px/1.2em Helvetica;  
+			padding: 0;
+			margin: 0;
+			background-color: #000000;
+			text-shadow  : 5px 10px 15px;
+            }	
+			
+.navbar a	{							
+		padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		color: white; /* Text color is white */
+		display: block;
+		}
+		
+.navbar li:hover, a:hover {background-color: #2A2A3B;}
+
+.navbar li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */			
+		}				
+
+.navbar li:hover ul 	{
+                        display: block; /* Displays the drop-down box when the menu item is hovered over */
+                        }
+
+.navbar li ul li {background-color: #FF3300;} 	
+
+.navbar li ul li a 	{
+		border-left: 3px solid #FFFF00; 
+		border-right: 3px solid #FFFF00; 
+		border-top: 3px solid #A44747; 
+		border-bottom: 3px solid #FFFF00; 
+		}
+				
+.navbar li ul li a:hover	{
+		background-color: #FFEEA8;
+		color:black;
+					}			
+
+#details b{
+			font-size:25px;
+			color:yellow;
+		}
+		
+#details ul{
+			margin:0 auto;
+			overflow:hidden;
+		}
+		
+#details li{
+			font-family:helvetica;
+			font-size:20px;
+		}
+		
+#footer{
+	clear:both;
+	height:40px;
+	width:898px;
+}
+	.cbox{
+	padding-bottom:15px;
+	Position:center;
+	font-size:18px;
+	font-family:helvetica;
+	text-shadow  : 5px 10px 15px;
+	color:white;
+	/*© 2013 A&J All Rights Reserved */		
